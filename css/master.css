@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  height: 700px;
+  background: url(../img/bg.jpg) no-repeat center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+h2{
+  width: 200px;
+  height: 50px;
+  margin-bottom: 20px;
+  color: #fff !important;
+  margin-left: 315px;
+  margin-right: auto;
+  font-family: 'Architects Daughter', cursive !important;
+}
+
+#formaction{
+  width: 820px;
+  height: 650px;
+  margin-top:100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  webkit-box-shadow: -1px 10px 146px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 10px 146px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px 10px 146px 0px rgba(0,0,0,0.75);
+  }
+#formaction .texts{
+
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-left:30px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+
+}
+#formaction label{
+  font-size: 20px;
+  padding-top: 5px;
+  color: #fff;
+  font-family: 'Architects Daughter', cursive !important;
+}
+
+.btn-danger{
+  display: inline-block;
+  margin-left: 2% !important;
+  margin-top: 20px !important;
+}
